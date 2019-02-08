@@ -7,14 +7,14 @@
 
    - **Usage**
    
-       ![Usage](https://user-images.githubusercontent.com/29546157/52454284-e2de2500-2b53-11e9-9f75-4ec8814d3d62.PNG)
+       ![usage](https://user-images.githubusercontent.com/29546157/52460134-96094700-2b71-11e9-87f1-fe8266325eea.PNG)
 
     
-   - **Check Single Proxy**: python proxychk.py PROXY_IP:PROXY_PORT
+   - **Check Single Proxy**: python proxychk.py -s PROXY_IP:PROXY_PORT
    
        ![single-check](https://user-images.githubusercontent.com/29546157/52453681-1ff4e800-2b51-11e9-90cd-ffeddb873340.PNG)
    
-   - **Check Many Proxy**: python proxychk.py PROXY_IP:PROXY_PORT,proxy2,proxy3,etc
+   - **Check Many Proxy**: python proxychk.py -m PROXY_IP:PROXY_PORT,proxy2,proxy3,etc
    
        ![check-many](https://user-images.githubusercontent.com/29546157/52453753-795d1700-2b51-11e9-97a6-ada143d3be80.PNG)
 
