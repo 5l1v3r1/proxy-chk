@@ -17,7 +17,7 @@ signal.signal(signal.SIGINT, handler)
 
 def isvalid(ip) : return True if re.match(r"^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$", ip) else False
 def cpro(proxy):
-	proxies = {'http': proxy, 'https': proxy,'ftp':proxy}
+	proxies = {'http': proxy, 'https': proxy}
 	try:
 		resp = requests.get('https://www.wikipedia.org',proxies=proxies, timeout=5)
 		proxip = resp.headers['X-Client-IP']
