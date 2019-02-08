@@ -7,7 +7,7 @@
 
    - **Usage**
    
-       ![usage](https://user-images.githubusercontent.com/29546157/52453714-43b82e00-2b51-11e9-8dfd-0c8f8dfd1a64.PNG)
+       ![Usage](https://user-images.githubusercontent.com/29546157/52454284-e2de2500-2b53-11e9-9f75-4ec8814d3d62.PNG)
 
     
    - **Check Single Proxy**: python proxychk.py PROXY_IP:PROXY_PORT
