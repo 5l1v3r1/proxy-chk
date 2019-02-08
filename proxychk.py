@@ -66,9 +66,9 @@ OPTIONS:
 Examples:
         |
      |--------
-     | python proxychk.py 192.168.1.1:80
+     | python proxychk.py -s 192.168.1.1:80
      |--------
-     | python proxychk.py 192.68.1.2:8080,192.68.1.2:53281,etc
+     | python proxychk.py -m 192.68.1.2:8080,192.68.1.2:53281,etc
      |--------
      | python proxychk.py -f proxies.txt
      |--------
