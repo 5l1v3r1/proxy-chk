@@ -55,11 +55,11 @@ USAGE: python ./proxychk.py [OPTIONS...]
 OPTIONS:
        |
     |--------
-    |  -s --single [proxy_IP:proxy_port]     ::> Check Single Email
+    |  -s --single [proxy_IP:proxy_port]     ::> Check Single Proxy
     |--------
-    |  -m --many   [proxy,proxy2,etc]        ::> Check Many Emails
+    |  -m --many   [proxy,proxy2,etc]        ::> Check Many Proxy
     |--------
-    |  -f --file   [file of proxies]         ::> Check All Emails From File
+    |  -f --file   [file of proxies]         ::> Check All Proxies In File
     |--------
     |  -d --save   [file-name]               ::> Save The Good Proxies In Output-File
 -------------
